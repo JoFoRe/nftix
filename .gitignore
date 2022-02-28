@@ -34,6 +34,7 @@ yarn-error.log*
 .vercel
 
 node_modules
+config.js
 .env
 coverage
 coverage.json
