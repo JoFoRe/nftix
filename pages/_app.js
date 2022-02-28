@@ -25,12 +25,12 @@ function MyApp({ Component, pageProps }) {
           connectors={connectors}
           >
       <nav className='border- p-4'>
-        <Image 
+        <div><Image className='flex-start' 
           src={logo_gb} 
           alt="Sonneck-io"         
           width={130}
           height={130}/> 
-        <ConnectMetaMask className="float-right"/>
+        <ConnectMetaMask className="float-right"/></div>
         <div></div>
           <Link href="/">
             <a className='mr-4 text-blue-900'>Home</a>
