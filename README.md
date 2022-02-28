@@ -1,42 +1,30 @@
-# Advanced Sample Hardhat Project
+# NFT Marketplace Web App on mumbai network with infura
 
-This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
+This Project implements a mix of Web and Smart Contract Development.
 
-The project comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts. It also comes with a variety of other tools, preconfigured to work with the project code.
+The Idea was to build a web app on the mumbai tets network using @Dabit3's template and guide.
+A few features were added:
+-metamask connect button (with currentaccount view functionality)
+-stylistic changes .
+-a tutorials page
+-a Footer
+-ERC721 URItoken function conflicting with the state of the ERC721URItoken version of the same function due to override state. (this was changed)
+-JSONRPC notation was depricated in web3js. A workaround using window.etherum was used in its place 
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-npx hardhat help
-REPORT_GAS=true npx hardhat test
-npx hardhat coverage
-npx hardhat run scripts/deploy.js
-node scripts/deploy.js
-npx eslint '**/*.js'
-npx eslint '**/*.js' --fix
-npx prettier '**/*.{json,sol,md}' --check
-npx prettier '**/*.{json,sol,md}' --write
-npx solhint 'contracts/**/*.sol'
-npx solhint 'contracts/**/*.sol' --fix
-```
 
-# Etherscan verification
 
-To try out Etherscan verification, you first need to deploy a contract to an Ethereum network that's supported by Etherscan, such as Ropsten.
 
-In this project, copy the .env.example file to a file named .env, and then edit it to fill in the details. Enter your Etherscan API key, your Ropsten node URL (eg from Alchemy), and the private key of the account which will send the deployment transaction. With a valid .env file in place, first deploy your contract:
+Techstack used:
+-React.js
+-Node.js
+-Next.js
+-tailwind.css
+-Openzeppelin
+-chai
+-Infura JsonRpc
+-css
+-Hardhat 
 
-```shell
-hardhat run --network ropsten scripts/deploy.js
-```
 
-Then, copy the deployment address and paste it in to replace `DEPLOYED_CONTRACT_ADDRESS` in this command:
 
-```shell
-npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
-```
