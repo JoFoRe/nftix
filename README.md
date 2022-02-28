@@ -41,5 +41,5 @@ Techstack used:
 **The purchaser of the NFT is now the proud owner of the Birds NFT and can find it in his Assets**
 ![Screen Shot 2022-02-28 at 11 40 50 PM](https://user-images.githubusercontent.com/87670179/156070919-429687f8-da2e-471e-a3b9-5788b39d3106.png)
 
-**The Seller and creator has an overview of his creations and sold NFTs**
+**A quick guide for creating NFTs using the web app is also available**
 ![Screen Shot 2022-02-28 at 11 38 23 PM](https://user-images.githubusercontent.com/87670179/156070952-dbf05e0f-a871-4216-b318-2c5944f73638.png)
