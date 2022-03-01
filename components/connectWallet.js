@@ -13,7 +13,7 @@ const ConnectMetaMask = () => {
           </p>
         ) : (
           <button
-            className="rounded bg-purple-600 cursor-pointer hover:bg-purple-500 text-xl font-semibold duration-100 text-white"
+            className="rounded bg-[#1c1c7cde] cursor-pointer hover:bg-[#1c1c7c85] text-xl font-semibold duration-100 text-white"
             onClick={()=>connectWallet("injected")}
           >
             Connect Wallet
