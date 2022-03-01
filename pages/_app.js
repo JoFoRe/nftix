@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Link from 'next/link' 
-import Image from 'next/image'
-import logo_gb from '../images/logo_gb.png'
+//import Image from 'next/image'
+//import logo_gb from '../public/logo_gb.png' changed to url for export
 import Footer from '../components/footer.js'  
 import ConnectMetaMask from '../components/connectWallet'
 import { ThirdwebWeb3Provider } from "@3rdweb/hooks";
@@ -25,8 +25,8 @@ function MyApp({ Component, pageProps }) {
           connectors={connectors}
           >
       <nav className='border- p-4'>
-        <div><Image className='flex-start' 
-          src={logo_gb} 
+        <div><img className='flex-start' 
+          src='https://github.com/JoFoRe/nftix/blob/main/images/logo_gb.png?raw=true'
           alt="Sonneck-io"         
           width={130}
           height={130}/> 

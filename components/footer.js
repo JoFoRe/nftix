@@ -1,13 +1,13 @@
 import React from "react";
-import Image from 'next/image'
-import logo_wb_sig from '../images/logo_wb_sig.png'
+//import Image from 'next/image'
+//import logo_wb_sig from '../public/logo_wb_sig.png' changed to url for export
 import Link from 'next/link' 
 
 const Footer = () => (
   <div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-welcome">
     <div className="w-full flex sm:flex-row flex-col justify-between items-center my-4">
       <div className="flex flex-[0.5] justify-center items-center">
-        <Image src={logo_wb_sig} alt="Sonneck-io"/>
+        <img src='https://github.com/JoFoRe/nftix/blob/main/images/logo_wb_sig.png?raw=true' alt="Sonneck-io"/>
       </div>
       <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
         <Link href="/">

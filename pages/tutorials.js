@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import metamask from '../images/metamask.png';
-import Image from 'next/image'
+//import metamask from 'https://github.com/JoFoRe/nftix/blob/main/images/metamask.png?raw=true'; changed to url for export
+//import Image from 'next/image' 
 
 const companyCommonStyles = " min-h-[80px] sm:px-2 sm:min-w-[120px] flex justify-center items-center border-[.7px] border-gray-400 text-sm font-light text-white";
 
@@ -20,7 +20,7 @@ const tutorials = () => {
         
           <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
             <div className={`text-right:2px sm:rounded-tl-2xl ${companyCommonStyles}`}>
-              <a className="text-center">1. Connect your wallet with Metamask    <Image width="18" height="18" src={metamask}/></a>
+              <a className="text-center">1. Connect your wallet with Metamask    <img width="18" height="18" src='https://github.com/JoFoRe/nftix/blob/main/images/metamask.png?raw=true'/></a>
             </div> {/* potentially create a button to switch between networks*/}
             <div className={companyCommonStyles}>
             <a className="text-center">2. Create a design and save it as a .jpg, .gif, or mp4 file</a>
